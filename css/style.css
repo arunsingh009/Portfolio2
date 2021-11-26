@@ -191,15 +191,6 @@ main{
 
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-      }
-      to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-      }
-  }
-
 @media (max-width:1200px){
     .rightside img {
         max-width: 300px;
@@ -219,14 +210,8 @@ main{
     .nav{
         margin: 0px 12px;
     }
-    @keyframes aagepiche{
-        from{
-            padding-left: 30px;
-            
-        }
-        to{
-            padding-right: 30px;
-        }
+    .logo h1{
+        animation: none;
     }
     .rightside img {
         max-width: 200px;
@@ -269,15 +254,6 @@ main{
     }
     nav{
         width: 100%;
-    }
-    @keyframes aagepiche{
-        from{
-            padding-left: 50px;
-            
-        }
-        to{
-            padding-right: 50px;
-        }
     }
     .left h1{
         font-size: 40px;
