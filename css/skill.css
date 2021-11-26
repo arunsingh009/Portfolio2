@@ -44,9 +44,9 @@ h1{
     flex-direction: column;
 }
 .img{
-    height:24vh;
-    width:16%;
-    border-radius: 50px;
+    height:200px;
+    width:200px;
+    border-radius: 100%;
     display: flex;
     justify-content:center;
     transition: all 0.2s ease-in; 
