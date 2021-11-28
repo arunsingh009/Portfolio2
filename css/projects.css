@@ -62,7 +62,7 @@ a:active{
 }
 .data{
     display: none;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     color: #fff;
 }
 .title{
